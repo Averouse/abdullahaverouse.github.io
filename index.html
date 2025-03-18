@@ -338,6 +338,7 @@
                 </div>
             </div>
         </footer>
+        <button id="back-to-top" class="btn btn-brand" onclick="scrollToTop()">↑</button>
         <!-- //Footer-->
     </div>
     <!-- //Content Wrapper -->
@@ -345,7 +346,11 @@
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/aos.js"></script>
     <script src="./assets/js/main.js"></script>
-
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 1, behavior: 'smooth' });
+        }
+    </script>
     <!--Catatan-->
 </body>
 
